@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Greater Boston Humane Society | Register</title>
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <a href="index.html"><header>
+            <img src="images/banner.png" alt="Greater Boston Humane Society logo" width="800">
+        </header></a>
+
+        <nav>
+        <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="adopt.html">Adopt</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <p class="bread"><a href="index.html">Home</a> / <a href="adopt.html">Adopt</a> / Dog Registration</p>
+    <div class="banner">
+        <img src="images/corgi.jpeg" alt="Picture of Corgi">
+    </div>
+
+    <h2>Adoptable Dog Registration</h2>
+
+    <p class="form">Please complete and submit the form below. You will receive an email when an animal that matches your preference becomes available.</p>
+
+    <form>
+        <table>
+            <tr>
+                <th>Personal Information</th>
+                <th>Animal Information</th>
+            </tr>
+            
+            <tr>
+                <td class="form">
+                    <label for="fname">*First Name</label><br>
+                    <input type="text" required><br>
+
+                    <label for="lname">*Last Name</label><br>
+                    <input type="text" required><br>
+
+                    <label for="address">Address</label><br>
+                    <input type="text"><br>
+
+                    <label for="city">*City</label><br>
+                    <input type="text" required><br>
+
+                    <label for="state">*State</label><br>
+                    <select id="state" required>
+                        <option value="al">Alabama</option>
+                        <option value="ak">Alaska</option>
+                        <option value="az">Arizona</option>
+                        <option value="ar">Arkansas</option>
+                        <option value="ca">California</option>
+                        <option value="co">Colorado</option>
+                        <option value="ct">Connecticut</option>
+                        <option value="de">Delaware</option>
+                        <option value="fl">Florida</option>
+                        <option value="ga">Georgia</option>
+                        <option value="hi">Hawaii</option>
+                        <option value="id">Idaho</option>
+                        <option value="il">Illinois</option>
+                        <option value="in">Indiana</option>
+                        <option value="io">Iowa</option>
+                        <option value="ks">Kansas</option>
+                        <option value="ky">Kentucky</option>
+                        <option value="la">Louisiana</option>
+                        <option value="me">Maine</option>
+                        <option value="md">Maryland</option>
+                        <option value="ma">Massachusetts</option>
+                        <option value="mi">Michigan</option>
+                        <option value="mn">Minnesota</option>
+                        <option value="ms">Mississippi</option>
+                        <option value="mo">Missouri</option>
+                        <option value="mt">Montana</option>
+                        <option value="ne">Nebraska</option>
+                        <option value="nv">Nevada</option>
+                        <option value="nh">New Hampshire</option>
+                        <option value="nj">New Jersey</option>
+                        <option value="nm">New Mexico</option>
+                        <option value="ny">New York</option>
+                        <option value="nc">North Carolina</option>
+                        <option value="nd">North Dakota</option>
+                        <option value="oh">Ohio</option>
+                        <option value="ok">Oklahoma</option>
+                        <option value="or">Oregon</option>
+                        <option value="pa">Pennsylvania</option>
+                        <option value="ri">Rhode Island</option>
+                        <option value="sc">South Carolina</option>
+                        <option value="sd">South Dakota</option>
+                        <option value="tn">Tennessee</option>
+                        <option value="tx">Texas</option>
+                        <option value="ut">Utah</option>
+                        <option value="vt">Vermont</option>
+                        <option value="va">Virginia</option>
+                        <option value="wa">Washington</option>
+                        <option value="wv">West Virginia</option>
+                        <option value="wi">Wisconsin</option>
+                        <option value="wy">Wyoming</option>
+                    </select><br><br>
+
+                    <label for="zip">*Zip Code</label><br>
+                    <input type="number" maxlength="5" required ><br>
+
+                    <label for="phone">*Phone</label><br>
+                    <input type="number" maxlength="10" required><br>
+
+                    <label for="email">*Email</label><br>
+                    <input type="email" required><br>
+                </td>
+
+                <td class="ai">                
+                    <label for="breed">*Breed</label><br>
+                    <select id="breed" required>
+                        <option value="ak">Akita</option>
+                        <option value="am">Alaskan Malamute</option>
+                        <option value="at">Australian Terrier</option>
+                        <option value="bd">Bulldog</option>
+                        <option value="ch">Chow Chow</option>
+                        <option value="gs">German Shepherd</option>
+                        <option value="gr">Golden Retriever</option>
+                        <option value="pk">Pekingese</option>
+                        <option value="wc">Welsh Corgi</option>
+                        <option value="yt">Yorkshire Terrier</option>
+                    </select><br>
+
+                    <label for="gender">Gender</label><br>
+                    <select id="gender">
+                        <option value="none">No Preference</option>
+                        <option value="m">Male</option>
+                        <option value="f">Female</option>
+                    </select><br>
+
+                    <label for="age">Approximate Age</label><br>
+                    <select id="age">
+                        <option value="none">No Preference</option>
+                        <option value="young">Young (less than 1 year)</option>  
+                        <option value="old">Older (more than 1 year)</option>
+                    </select><br>
+
+                    <label for="size">Size</label><br>
+                    <select id="size">
+                    <option value="none">No Preference</option>
+                    <option value="sm">Small</option>
+                    <option value="med">Medium</option>
+                    <option value="lg">Large</option>
+                    <option value="xlg">Extra Large</option>
+                </select>
+                </td>
+            </tr>
+        </table>
+
+        <input class="sub" type="submit" value="Submit">
+    </form>
+
+
+    <h2 class="contact">Contact Us</h2>
+    <div class="contact">
+        
+        <h3>Adoption Center</h3>
+        <div class="adoption_contact">
+            <p><img class="adoption_contact" src="images/baseline_location_on_black_24dp.png"> 52 Commonwealth Avenue<br>Boston, MA 02341</p>
+            <p><img class="adoption_contact" src="images/baseline_call_black_24dp.png"> (123) 456-7890</p>
+            <p><img class="adoption_contact" src="images/baseline_mail_outline_black_24dp.png">general@gbhs.org</p>
+        </div>
+
+        <h3>Medical Center</h3>
+        <div class="vet_contact">
+            <p><img class="adoption_contact" src="images/baseline_location_on_black_24dp.png">52 Commonwealth Avenue<br>Boston, MA 02341</p>
+            <p><img class="adoption_contact" src="images/baseline_call_black_24dp.png">(123) 456-7890</p>
+            <p><img class="adoption_contact" src="images/baseline_mail_outline_black_24dp.png">vet@gbhs.org</p>
+        </div>
+    </div>
+
+<br>
+
+    <div class="signup">
+        <h3 class="email">Newsletter Sign Up</h3>
+        <input class="field" type="email" id="email" required>
+        <input class="email" type="submit" value="Subscribe">
+    </div>
+
+    <footer>
+        <p>Copyright &#169; Greater Boston Humane Society<br>
+        song.mins@northeastern.edu</p>
+    </footer>
+
+</div>
+   
+</body>
+</html>

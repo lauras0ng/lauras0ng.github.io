@@ -1,0 +1,21 @@
+.dogs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("images/dogs.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.cats {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("images/cats.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}

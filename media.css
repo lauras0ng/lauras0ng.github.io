@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1024px) {
+    header {height: auto; margin-bottom: 0;}
+    header img {display: blockS; width: 90%;}
+	#wrapper {width: auto; min-width: 0; margin: 0; padding: 0; box-shadow: none;}
+	h1 {margin-top: 0; margin-bottom: 0.3em; font-size: 4.5em;}
+	nav {float: none; width: auto; padding-top: 0; font-size: 1.3em;}
+	nav li {display: inline-block; padding-top: 2.5px;}
+	nav a {padding: 1em; width: 8em; font-weight: bold; border-style: none;}
+	nav ul {padding: 0; margin: 0;}
+	main {margin: 0; font-size: 90%;}
+	.feature {margin: 0; padding: 0;}
+    .covid > a {font-size: 70%;}
+    div.covid {height: auto;}
+}
+
+@media only screen and (max-width: 768px) {
+	header {height: auto; margin-bottom: 0; margin-top:0;}
+	header img {display: block; width: 80%; height: auto; margin-right: auto; margin-left: auto;}
+	h1 {font-size: 4.2em; text-align: center; padding-left: 0; padding-top: 0; padding-bottom: 0; overflow: visible; height: auto; word-wrap:break-word;}
+	nav {margin: 0;  height: auto;}
+	nav a {display: block; padding: 0.2em; width: auto; text-align: center;}
+	nav li {display: block; padding: 0; margin: 0;}
+	main {padding-top: 1px;}
+    .main-text {font-size: 50%;}
+    p.dog {font-size: 80%;}
+    p.cat {font-size: 80%;}
+    button {font-size: 80%;}
+	}

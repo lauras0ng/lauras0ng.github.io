@@ -1,0 +1,475 @@
+@import url(list.css);
+@import url(media.css);
+
+.main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url("images/main.jpg");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main-text {
+    text-align: center;
+    padding-top: 160px;;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card > div {
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("images/cat1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("images/dogvet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url("images/animal_rescue.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.news {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news > div {
+    text-align: center;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+.nerothumb {
+    height: 320px;
+    background-image: url("images/nero.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #1C355D;
+    font-size: 1.8em;
+}
+
+nav li {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    display: inline;
+    
+}
+
+nav {
+    max-width: 100%;
+}
+
+li a {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px 15px;
+    color: #1C355D;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+div.contact {
+    border-bottom: 1px solid rgba(148, 145, 145, 0.157);
+    column-count: 2;
+    text-align: left;
+    padding-bottom: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.info {
+    border-bottom: 1px solid rgba(148, 145, 145, 0.157);
+}
+
+.adoption_contact > p {
+    padding-left: 25%;
+    font-family: 'Rubik', sans-serif;
+}
+
+img.adoption_contact {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.vet_contact > p {
+    padding-left: 25%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contact > h3 {
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #1C355D;
+}
+
+h2.contact {
+    border-top: 1px solid rgba(148, 145, 145, 0.157);
+    padding-top: 30px;
+}
+
+.signup {
+    text-align: center;
+    border-bottom: 1px solid rgba(148, 145, 145, 0.157);
+    padding-bottom: 30px;
+}
+
+.signup > input {
+    margin-top: 10px;
+}
+
+.signup {
+    font-family: 'Rubik', sans-serif;
+}
+
+footer {
+    font-family: 'Rubik', sans-serif;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+a:hover {
+    color: #D20F2A;
+    cursor: pointer;
+}
+
+button {
+    background-color: #D20F2A;
+    border: none;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 2px;
+    padding: 12px 15px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+/**table**/
+table {
+    max-width: 90%;
+    margin: auto;
+    font-family: 'Rubik', sans-serif;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 10px;
+}
+
+th {
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+tr.av:hover {
+    background-color: rgb(202, 187, 166);
+}
+
+
+.list {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+
+.form > input {
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+.form > label {
+    margin-left: 20%;
+}
+
+.form > select {
+    margin-left: 20%;
+}
+
+.ai > select {
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+.ai > label {
+    margin-bottom: 10px;
+    margin-left: 20%;
+}
+
+
+form > h3 {
+    font-family: 'Rubik', sans-serif;
+    color: #1C355D;
+}
+
+input.sub {
+    margin-left: 45%;
+    background-color: #D20F2A;
+    border: none;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding: 12px 15px;
+    
+}
+
+input.sub:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+form > table {
+    margin-top: 15px;
+    width: 80%;
+}
+
+.covid {
+    background-color: #D20F2A;
+    height: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.covid p {
+    vertical-align: center;
+    display: inline-block;
+    line-height: 1;
+    font-size: 2em;
+}
+
+
+
+p {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+}
+
+li {
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.5;
+}
+
+button.dog {
+    font-size: 25px;
+    margin-top: 170px;
+}
+
+button.cat {
+    font-size: 25px;
+    margin-top: 170px;
+}
+
+p.dog {
+    margin-top: 20px;
+}
+
+p.cat {
+    margin-top: 20px;
+}
+
+h2.adopt {
+    margin-bottom: 0;
+}
+
+.info {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner > img {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listbanner > img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.covid > a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+input.email {
+    background-color: #D20F2A;
+    border: none;
+    color:rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin: 2px;
+    padding: 10px 13px;
+}
+
+input.field {
+    padding-bottom: 5px;
+}
+
+#wrapper {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p.form {
+    text-align: center;
+}
+
+td.medical {
+    width: 60%;
+    font-size: 1.1em;
+}
+
+td.hours {
+    width: 60%;
+    font-size: 1.1em;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+div.rsc {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+img.rsc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.rsc {
+    margin-bottom: 20px;
+}
+
+div.rsc:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+a.rsc {
+    text-decoration: none;
+    color: #1C355D;
+}
+
+a.rsc:hover {
+    text-decoration: none;
+    color: #D20F2A;
+}
+
+p.bread {
+    margin-left: 20px;
+}
+
+.bread > a {
+    text-decoration: none;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+hr {
+    color:rgba(148, 145, 145, 0.157);
+}
+
+img.cece {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+img.nero {
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
